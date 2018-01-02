@@ -1,5 +1,6 @@
 var React = require('react');
 var Nav = require('Nav');
+var InfoModal = require('InfoModal');
 
 var Main = (props) => {
   return (
@@ -10,6 +11,7 @@ var Main = (props) => {
           {props.children}
         </div>
       </div>
+      <InfoModal/>
     </div>
   );
 };
