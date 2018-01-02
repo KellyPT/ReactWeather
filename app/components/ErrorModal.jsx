@@ -31,10 +31,8 @@ var ErrorModal = React.createClass({
     modal.open();
   },
   render: function () {
-
     return (
       <div>
-
       </div>
     );
   }
